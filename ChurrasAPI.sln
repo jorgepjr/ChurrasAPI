@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testes", "Testes\Testes.csproj", "{C90FC52D-0903-4C0C-9518-0A0B6AD802A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7D3EB760-B0A9-40A2-B8D6-04C82BBB6132}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "src\Dominio\Dominio.csproj", "{2B644B4E-50AE-48A5-9E77-E7C389676438}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "src\API\API.csproj", "{51911CE7-12CB-4693-B390-206143BD77F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C90FC52D-0903-4C0C-9518-0A0B6AD802A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C90FC52D-0903-4C0C-9518-0A0B6AD802A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C90FC52D-0903-4C0C-9518-0A0B6AD802A5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C90FC52D-0903-4C0C-9518-0A0B6AD802A5}.Debug|x64.Build.0 = Debug|Any CPU
+		{C90FC52D-0903-4C0C-9518-0A0B6AD802A5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C90FC52D-0903-4C0C-9518-0A0B6AD802A5}.Debug|x86.Build.0 = Debug|Any CPU
+		{C90FC52D-0903-4C0C-9518-0A0B6AD802A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C90FC52D-0903-4C0C-9518-0A0B6AD802A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C90FC52D-0903-4C0C-9518-0A0B6AD802A5}.Release|x64.ActiveCfg = Release|Any CPU
+		{C90FC52D-0903-4C0C-9518-0A0B6AD802A5}.Release|x64.Build.0 = Release|Any CPU
+		{C90FC52D-0903-4C0C-9518-0A0B6AD802A5}.Release|x86.ActiveCfg = Release|Any CPU
+		{C90FC52D-0903-4C0C-9518-0A0B6AD802A5}.Release|x86.Build.0 = Release|Any CPU
+		{2B644B4E-50AE-48A5-9E77-E7C389676438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B644B4E-50AE-48A5-9E77-E7C389676438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B644B4E-50AE-48A5-9E77-E7C389676438}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2B644B4E-50AE-48A5-9E77-E7C389676438}.Debug|x64.Build.0 = Debug|Any CPU
+		{2B644B4E-50AE-48A5-9E77-E7C389676438}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2B644B4E-50AE-48A5-9E77-E7C389676438}.Debug|x86.Build.0 = Debug|Any CPU
+		{2B644B4E-50AE-48A5-9E77-E7C389676438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B644B4E-50AE-48A5-9E77-E7C389676438}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B644B4E-50AE-48A5-9E77-E7C389676438}.Release|x64.ActiveCfg = Release|Any CPU
+		{2B644B4E-50AE-48A5-9E77-E7C389676438}.Release|x64.Build.0 = Release|Any CPU
+		{2B644B4E-50AE-48A5-9E77-E7C389676438}.Release|x86.ActiveCfg = Release|Any CPU
+		{2B644B4E-50AE-48A5-9E77-E7C389676438}.Release|x86.Build.0 = Release|Any CPU
+		{51911CE7-12CB-4693-B390-206143BD77F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51911CE7-12CB-4693-B390-206143BD77F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51911CE7-12CB-4693-B390-206143BD77F5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{51911CE7-12CB-4693-B390-206143BD77F5}.Debug|x64.Build.0 = Debug|Any CPU
+		{51911CE7-12CB-4693-B390-206143BD77F5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{51911CE7-12CB-4693-B390-206143BD77F5}.Debug|x86.Build.0 = Debug|Any CPU
+		{51911CE7-12CB-4693-B390-206143BD77F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51911CE7-12CB-4693-B390-206143BD77F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51911CE7-12CB-4693-B390-206143BD77F5}.Release|x64.ActiveCfg = Release|Any CPU
+		{51911CE7-12CB-4693-B390-206143BD77F5}.Release|x64.Build.0 = Release|Any CPU
+		{51911CE7-12CB-4693-B390-206143BD77F5}.Release|x86.ActiveCfg = Release|Any CPU
+		{51911CE7-12CB-4693-B390-206143BD77F5}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B644B4E-50AE-48A5-9E77-E7C389676438} = {7D3EB760-B0A9-40A2-B8D6-04C82BBB6132}
+		{51911CE7-12CB-4693-B390-206143BD77F5} = {7D3EB760-B0A9-40A2-B8D6-04C82BBB6132}
+	EndGlobalSection
+EndGlobal
