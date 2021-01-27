@@ -1,5 +1,6 @@
 using System;
 using Dominio;
+using Moq;
 using Xunit;
 
 namespace Testes
@@ -27,6 +28,18 @@ namespace Testes
             churras.Adicionar(participante);
 
             Assert.Single(churras.Participantes);
+        }
+
+         [Fact]
+        public void DeveRemoverUmParticipante()
+        {
+            var participante = new Mock<Participante>().Object;
+
+            churras.Adicionar(participante);
+
+            churras.Remover(participante);
+
+            Assert.Empty(churras.Participantes);
         }
 
         [Fact]

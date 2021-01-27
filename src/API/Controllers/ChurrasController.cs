@@ -22,7 +22,9 @@ namespace API.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            var churras = await db.Churras.ToListAsync();
+            var churras = await db.Churras
+            .Include(x => x.Participantes)
+            .ToListAsync();
             return Ok(churras);
         }
 
