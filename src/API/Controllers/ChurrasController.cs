@@ -46,7 +46,7 @@ namespace API.Controllers
 
             var churras = new Churras(churrasDto.Descricao, churrasDto.Data, churrasDto.Observacao);
 
-            if (churras.DataRetroativa)
+            if (churras.DataRetroativa())
             {
                 return BadRequest("A data deve ser maior ou igual a de hoje");
             }
