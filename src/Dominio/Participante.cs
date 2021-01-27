@@ -10,13 +10,6 @@ namespace Dominio
             Nome = nome;
             ValorSugerido = valorSugerido;
         }
-
-        public Participante(double valorPago, bool comBebida)
-        {
-            ValorPago = valorPago;
-            ComBebida = comBebida;
-        }
-
         public Guid Id { get; private set; }
         public string Nome { get; private set; }
         public double ValorSugerido { get; private set; }

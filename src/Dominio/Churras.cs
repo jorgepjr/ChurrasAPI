@@ -5,8 +5,8 @@ namespace Dominio
 {
     public class Churras
     {
-        protected Churras(){}
-        public Churras(string descricao, DateTime data, string observacao)
+        protected Churras() { }
+        public Churras(string descricao, DateTime data, string observacao = null)
         {
             Descricao = descricao;
             Data = data;
@@ -21,5 +21,10 @@ namespace Dominio
 
         public void Adicionar(Participante participante) => Participantes.Add(participante);
         public void Remover(Participante participante) => Participantes.Remove(participante);
+
+        public bool DataRetroativa()
+        {
+            return this.Data.Date < DateTime.Now.Date;
+        }
     }
 }
